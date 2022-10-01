@@ -4,6 +4,7 @@ const marag_check = document.getElementById('marag_check');
 const msg = document.querySelector('.msg');
 const msgL = document.querySelector('.msg-long');
 const msg_dis = document.querySelector('#msg_dis');
+const ad1 = document.querySelector('#ad1');
 
 
 
