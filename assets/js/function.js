@@ -51,9 +51,9 @@ const marrageAgeCal = (name, age, gender) => {
     //Start calculation
 
         if ( age >= marrageAge ){
-            return msgL.innerHTML = setAlert(`Hi, ${name} ${genName} you are readhy for Marrage.`,'success');
+            return msgL.innerHTML = setAlert(`Hi, ${name} ${genName} you are ready for Marrage.`,'success');
         }else{
-            return msgL.innerHTML = setAlert(`Hi, ${name} ${genName} you are not readhy for Marrage, You have to wait ${marrageAge - age} years.`);
+            return msgL.innerHTML = setAlert(`Hi, ${name} ${genName} you are not ready for Marrage, You have to wait ${marrageAge - age} years.`);
 
     }
 }
